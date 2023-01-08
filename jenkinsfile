@@ -1,0 +1,30 @@
+pipeline
+{
+stages
+{
+stage("Build")
+{
+    echo "Building the project"
+}
+
+
+stage("Deply")
+{
+    echo "Deploying the project"
+}
+
+
+stage("Test")
+{
+    echo "Testing the project"
+}
+
+
+stage("Release")
+{
+    echo "Releasing the project"
+}
+    
+}
+
+}
